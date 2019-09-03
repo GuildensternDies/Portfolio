@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.19f02128.chunk.css",
+    "main.js": "/static/js/main.fd5bdedf.chunk.js",
+    "main.js.map": "/static/js/main.fd5bdedf.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.0033641b.js",
+    "runtime~main.js.map": "/static/js/runtime~main.0033641b.js.map",
+    "static/js/2.7e2ceb2c.chunk.js": "/static/js/2.7e2ceb2c.chunk.js",
+    "static/js/2.7e2ceb2c.chunk.js.map": "/static/js/2.7e2ceb2c.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.d412c43e6bbf6f75d297a8a000525c48.js": "/precache-manifest.d412c43e6bbf6f75d297a8a000525c48.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.19f02128.chunk.css.map": "/static/css/main.19f02128.chunk.css.map",
+    "static/media/App.css": "/static/media/curtain.3720fc60.png",
+    "static/media/barrel.png": "/static/media/barrel.967f9154.png",
+    "static/media/caracas.png": "/static/media/caracas.071a07ba.png",
+    "static/media/css.png": "/static/media/css.eb7f4692.png",
+    "static/media/events.png": "/static/media/events.93384274.png",
+    "static/media/github.png": "/static/media/github.ff1d322d.png",
+    "static/media/javascript.png": "/static/media/javascript.87f2b688.png",
+    "static/media/macro.png": "/static/media/macro.c3fa4ef7.png",
+    "static/media/postgresql.png": "/static/media/postgresql.ea5a6b4e.png",
+    "static/media/profile.jpeg": "/static/media/profile.9a9c9cd9.jpeg",
+    "static/media/react.png": "/static/media/react.7c0fdc49.png",
+    "static/media/ruby.png": "/static/media/ruby.cb75cc00.png"
+  }
+}

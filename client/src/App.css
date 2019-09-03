@@ -1,5 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Inconsolata&display=swap");
+
 .App {
   text-align: center;
+  font-family: 'Inconsolata', monospace;
+}
+h1 {
+  font-size: 3.3em;
+  margin-top: 0;
+}
+h3 {
+  font-size: 2em;
+}
+#header {
+  background-image: url(./assets/background.jpeg);
+  margin-top: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+#header h1 {
+  padding-top: 10%;
+}
+#header h3 {
+  padding-bottom: 10%;
+}
+#nav {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 25%;
+}
+#nav a {
+  font-size: 1.2em;
+  color: white;
+}
+
+#about h3 {
+  margin: 0;
+  padding-top: 5%;
+}
+#profile-pic {
+  margin: 5% 0 5% 0;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+#about {
+  text-align: center;
+}
+#about p {
+  font-size: 1.3em;
+  width: 50%;
+  padding-left: 25%;
 }
 #skill-pics {
   display: grid;
@@ -16,4 +69,70 @@
   transition: transform 200ms ease-in-out;
   font-weight: 500;
   text-shadow: 0 2px 2px gray;
+}
+
+#portfolio-section {
+  display: grid;
+  grid-template-rows: 350px 350px 350px;
+  grid-template-columns: 2fr 2fr;
+}
+#portfolio h3 {
+  font-size: 2em;
+}
+.website {
+  margin: 10px 30px;
+}
+.hover-box {
+  display: none;
+  margin: 20% 30% 0 30%;
+  opacity: 1;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 5%;
+  color: white;
+  padding-bottom: 3%;
+}
+.hover-box a {
+  color: white;
+}
+.website:hover {
+  box-shadow: 0 0 10px;
+}
+.website:hover .hover-box {
+  display: block;
+}
+.web-macro {
+  background-image: url(./assets/macro.png);
+  background-size: contain;
+}
+.web-events {
+  background-image: url(./assets/events.png);
+  background-size: contain;
+}
+.web-barrel {
+  background-image: url(./assets/barrel.png);
+  background-size: contain;
+}
+.web-caracas {
+  background-image: url(./assets/caracas.png);
+  background-size: contain;
+}
+.web-curtain {
+  background-image: url(./assets/curtain.png);
+  background-size: contain;
+}
+
+#contact h3 {
+  font-size: 2em;
+}
+#contact-links {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 2%;
+  border-bottom: 3px solid gray;
+  margin: 5% 5%;
+}
+#contact-links a {
+  font-size: 1.2em;
+  color: black;
 }

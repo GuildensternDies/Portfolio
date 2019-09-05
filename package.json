@@ -7,7 +7,7 @@
     "react-dom": "^16.9.0",
     "react-scripts": "3.1.1"
   },
-  "homepage": "https://brianevanweitz.github.io/Portfolio",
+  "homepage": "https://brianevanweitz.com",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

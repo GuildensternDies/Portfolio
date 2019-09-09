@@ -8,12 +8,22 @@ function App() {
   return (
     <div className="App">
       <div id="header">
-        <h1>Brian Evan Weitz</h1>
-        <h3>Software Engineer</h3>
         <div id="nav">
           <a href="#about">About</a>
           <a href="#portfolio">Portfolio</a>
           <a href="#contact">Contact</a>
+        </div>
+        <div id="title-name">
+          <h1>Brian Evan Weitz</h1>
+        </div>
+        <div className="title title-software">
+          <h3>Software Engineer</h3>
+        </div>
+        <div className="title title-web">
+          <h3>Web Developer</h3>
+        </div>
+        <div className="title title-tech">
+          <h3>Technical Solutions</h3>
         </div>
       </div>
       <div id="about">
